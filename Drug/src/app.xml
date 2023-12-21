@@ -1,0 +1,29 @@
+<configuration >
+  <appSettings>
+    <add key="ApplicationName" value="IMPSL Drug Index"/>
+  </appSettings>
+  <smsSettings>
+    <add key="SMS_URL" value="https://sms.textware.lk:5001/sms/send_sms.php"/>
+    <add key="SMS_USERNAME" value="mobios_alert"/>
+    <add key="SMS_SRC" value="MobiOsOTP"/>
+    <add key="SMS_PASSWORD" value="Mo321Ar"/>
+    <add key="SMS_ACTION" value="bulk_put"/>
+    <add key="SMS_CAMP" value="bulk"/>
+</smsSettings>
+  <databaseSettings>
+  	<live>
+  		<add key="DatabaseUrl" value="jdbc:mysql://localhost:3306/"/>
+  		<add key="DatabasUserName" value="root"/>
+  	    <add key="DatabasePassword" value="Mobios@#1"/>
+  	    <add key="DriverName" value="com.mysql.cj.jdbc.Driver"/>
+  	</live>
+  	<development>
+  		<add key="DatabaseUrl" value="jdbc:mysql://localhost:3306/"/>
+  		<add key="DatabasUserName" value="root"/>
+  	    <add key="LocalDatabasePassword" value="kasuni123*"/>
+  	    <add key="DriverName" value="com.mysql.cj.jdbc.Driver"/>
+  	</development>
+  </databaseSettings>
+
+  
+</configuration>
